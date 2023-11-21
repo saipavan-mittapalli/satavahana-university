@@ -64,15 +64,7 @@ html, body{
     font-weight: 600;
     margin-top: 0;
 }
-/* #navbar{
-    height: 160px;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    gap: 150px;
-} */
+
 #title{
     margin-top: 10px;
 }
@@ -184,6 +176,8 @@ nav ul li a{
 #check{
   display: none;
 }
+
+
 @media (max-width: 952px){
   nav ul li a{
     font-size: 16px;
@@ -223,6 +217,115 @@ nav ul li a{
 
 
 
+
+
+
+
+
+
+
+
+#wcu{
+    margin: 0 250px;
+    margin-top: 75px;
+}
+#wcu img{
+    height: 400px;
+    width: 300px;
+    padding: 0;
+    
+}
+#wcu-text{
+    position: relative;
+    right: 140px;
+}
+#wcu-text h2{
+    text-transform: uppercase;
+    font-family: "DM Sans",Sans-serif;
+    font-size: 18px;
+    letter-spacing: 4px;
+    padding: 0 15px 15px 0;
+    color: #36348e;
+
+}
+#wcu-text h1{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#wcu-text p{
+    box-sizing: border-box;
+    text-align: justify;
+    font-family: "DM Sans",Sans-serif;
+    font-size: 15px;
+    width: 150%;
+}
+#wcu-text a p{
+    text-transform: uppercase;
+    font-family: "DM Sans",Sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: #93003C;
+    text-decoration: none;
+}
+#wcu-text a{
+    text-decoration: none;
+}
+#profile-imgs{
+    width: 100%;
+    position: absolute;
+    right: -100px;
+}
+#profile-imgs img{
+    width: 50%;
+    height: 25%;
+    cursor: pointer;
+}
+
+
+
+#footer{
+    padding: 15px;
+    margin-top: 150px;
+    width: 100vw;
+    background-color: #2393C6;
+    display: flex;
+    justify-content: center;
+}
+#footer img{
+    padding: 32px 0;
+    width: 62%;
+}
+#footer h4{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+#footer p{
+    cursor: pointer;
+    text-transform: capitalize;
+    font-family: "DM Sans",Sans-serif;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+#footer p:hover{
+    color: #F8C447;
+    transition: 0.5s;
+}
+#credits{
+
+    
+    background-color: #2393C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#credits p{
+    font-family: "DM Sans",Sans-serif;
+    color: #fff;
+}
 
 
 
@@ -277,48 +380,41 @@ nav ul li a{
 
 
 
+
+    #wcu{
+        margin: 20px 0;
+    }
+    #wcu img{
+        height: 100%;
+        width: 100%;
+    }
+    #wcu-text{
+        position: static;
+        text-wrap: stable;
+        margin-top: 25px;
+    }
+    #wcu-text h1{
+        font-size: 36px;
+    }
+    #wcu-text h2{
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+    #wcu-text p{
+        width: 100%;
+        font-size: 13px;
+        font-family: "DM Sans",Sans-serif;
+    }
+
+    #profile-imgs{
+        position: static;
+
+    }
+    #profile-imgs img{
+        width: 100%;
+        height: 50%;
+        cursor: pointer;
+    }
+
+
 } 
-
-
-#footer{
-    padding: 15px;
-    margin-top: 150px;
-    width: 100vw;
-    background-color: #2393C6;
-    display: flex;
-    justify-content: center;
-}
-#footer img{
-    padding: 32px 0;
-    width: 62%;
-}
-#footer h4{
-    color: #fff;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 35px;
-}
-#footer p{
-    cursor: pointer;
-    text-transform: capitalize;
-    font-family: "DM Sans",Sans-serif;
-    color: #fff;
-    font-size: 12px;
-
-}
-
-#footer p:hover{
-    color: #F8C447;
-    transition: 0.5s;
-}
-#credits{
-
-    
-    background-color: #2393C6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#credits p{
-    font-family: "DM Sans",Sans-serif;
-    color: #fff;
-}
