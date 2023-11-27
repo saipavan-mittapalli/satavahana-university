@@ -100,13 +100,16 @@ html, body{
     padding-top: 25px;
     background-color: #F2F2F2;
 }
+#imp-links a{
+    width:80%;
+}
 #imp-links a button{
     color: #fff;
     font-size: 14px;
     font-family: "DM Sans",Sans-serif;
     background-color: #2393C6;
     border: none;
-    width: 300px;
+    width: 100%;
     height: 45px;
     justify-content: center;
     margin: 7px;
